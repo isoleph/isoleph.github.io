@@ -2596,9 +2596,9 @@ input, select, textarea {
 		background-image: url("images/overlay.png"), url("../../images/bg.png");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
-		background-size: auto;
+		background-size: --webkit-fit-content;
 		color: rgba(255, 255, 255, 0.5);
-		height: --webkit-fit-content;
+		height: 100%;
 		left: 0;
 		padding: 8em 4em;
 		position: fixed;
