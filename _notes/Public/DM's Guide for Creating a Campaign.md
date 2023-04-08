@@ -2,7 +2,6 @@
 title: Dungeon Master's Guide for a Successful Campaign
 feed: show
 date: 11-05-2022
-permalink: /credits
 format: list
 ---
 

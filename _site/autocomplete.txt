@@ -1,1 +1,1 @@
-About Me;Install and Setup;Jekyll Garden Features;
+About;about;How To;Features;Install and Setup;Jekyll Garden Features;

@@ -1,5 +1,6 @@
 ---
-title: About Me
+layout: Post
+title: about
 ---
 
 <img src="./../assets/img/avatar.jpeg" alt="Headshot" class="center" width="50%">

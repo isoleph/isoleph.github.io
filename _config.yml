@@ -108,6 +108,8 @@ defaults:
 #
 
 include:
+  - _static
+  - _site
   - _notes/Public/
 exclude:
   - _notes/Inbox
