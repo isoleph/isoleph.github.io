@@ -54,3 +54,10 @@ tags
 #!! ERROR: vscode is undefined. Use list command to see defined gitignore types !!#
 
 # End of https://www.toptal.com/developers/gitignore/api/vim,macOS,vscode
+
+_site
+.jekyll-cache
+pages/.DS_Store
+pages/tags.md
+_notes/.obsidian
+_notes/Public/.obsidian
