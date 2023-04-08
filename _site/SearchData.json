@@ -1,0 +1,22 @@
+{"0": {
+"doc":  "Hidden Note",
+"title": "Hidden Note",
+"content": "Tada! You found the hidden note! This note is just like [[Welcome to the garden]], but not part of the feed since we hide it using notetype: unfeed. Please remember that the intention here is only to declutter the feed and not provide any &#39;protection&#39; to the content. Notes with unfeed note type will be synced to Github, accessed via URL, and hyperlinked. How to handle Private notes? . I would recommend using sub-folders inside _notes (Eg: Public and Private) and add Private to .gitignore so that Private notes won&#39;t get synced to Github. PS: Can you see the backlink to Welcome to the garden? That&#39;s backlinking! :) . Here is an example of latex code . iℏ∂∂tΨ(r⃗,t)=H^Ψ(r⃗,t)i \\hbar \\frac{\\partial}{\\partial t} \\Psi(\\vec{r},t) = \\hat{H} \\Psi(\\vec{r},t)iℏ∂t∂​Ψ(r,t)=H^Ψ(r,t)",
+"url": "/note/Hidden-Note"
+},"1": {
+"doc":  "Credits",
+"title": "Credits",
+"content": ". | Raghuveer, who created Simply Jekyll theme | Santosh Thottingal who introduced me to Digital Garden | Puttalu for OrgMode classes! | Team Obsidian for making obsidian a markdown based product | Dark Mode Switch by Derek Kedziora - Source link | Highlight theme from Jekyll Pygment Themes . | Asim K T, who coded the base HTML using Bulma. | Ershad for helping me understand Jekyll and Ruby. | Anish, for JS corrections | Binny for making Gatsby version of the same theme | Gnuanu for beta testing and private bug reporting | .",
+"url": "/credits"
+},"2": {
+"doc":  "Dungeons and Dragons Rules",
+"title": "Dungeons and Dragons Rules",
+"content": "In order to play Dungeons and Dragons, you will need a DM, or dungeon master, and a party of ideally three or more people.",
+"url": "/note/Dungeons-and-Dragons-Rules"
+},"3": {
+"doc":  "My Personal Latex Rules",
+"title": "My Personal Latex Rules",
+"content": "The interesting thing about Kramdown is its ability to format Latex, for instance: . iℏ∂∂tΨ(r⃗,t)=H^Ψ(r⃗,t)i \\hbar \\frac{\\partial}{\\partial t} \\Psi(\\vec{r},t) = \\hat{H} \\Psi(\\vec{r},t)iℏ∂t∂​Ψ(r,t)=H^Ψ(r,t)",
+"url": "/note/My-Personal-Latex-Rules"
+}
+}
