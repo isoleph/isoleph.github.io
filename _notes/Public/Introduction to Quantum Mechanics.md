@@ -1,11 +1,9 @@
 ---
-title: LaTeX Functionality
+title: Introduction to Quantum Mechanics 
 feed: show
 date: 04-08-2023
-permalink: /
 format: list
 ---
-
 
 ## The Time-Dependent Schrödinger Equation
 $$ i \hbar \frac{\partial}{\partial t} \Psi(\vec{r},t) = \hat{H} \Psi(\vec{r},t) $$
