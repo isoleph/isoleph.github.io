@@ -9,11 +9,16 @@
 "content": ". | Raghuveer, who created Simply Jekyll theme | Santosh Thottingal who introduced me to Digital Garden | Puttalu for OrgMode classes! | Team Obsidian for making obsidian a markdown based product | Dark Mode Switch by Derek Kedziora - Source link | Highlight theme from Jekyll Pygment Themes . | Asim K T, who coded the base HTML using Bulma. | Ershad for helping me understand Jekyll and Ruby. | Anish, for JS corrections | Binny for making Gatsby version of the same theme | Gnuanu for beta testing and private bug reporting | .",
 "url": "/credits"
 },"2": {
+"doc":  "Credits",
+"title": "Credits",
+"content": "As a DM, it may feel overwhelming to come up with a campaign that is both enjoyable and challenging to your group. But remember, the point of running a campaign is to uncover the story through your players. You should not be railroading them through a story. That&#39;s the function of movies and video games, not of D&amp;amp;D.",
+"url": "/credits"
+},"3": {
 "doc":  "Dungeons and Dragons Rules",
 "title": "Dungeons and Dragons Rules",
 "content": "In order to play Dungeons and Dragons, you will need a DM, or dungeon master, and a party of ideally three or more people.",
 "url": "/note/Dungeons-and-Dragons-Rules"
-},"3": {
+},"4": {
 "doc":  "My Personal Latex Rules",
 "title": "My Personal Latex Rules",
 "content": "The interesting thing about Kramdown is its ability to format Latex, for instance: . iℏ∂∂tΨ(r⃗,t)=H^Ψ(r⃗,t)i \\hbar \\frac{\\partial}{\\partial t} \\Psi(\\vec{r},t) = \\hat{H} \\Psi(\\vec{r},t)iℏ∂t∂​Ψ(r,t)=H^Ψ(r,t)",
