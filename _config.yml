@@ -11,6 +11,16 @@ permalink: /:title
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-github-metadata
+  - jekyll-seo-tag
+  - jekyll-coffeescript
+  - jekyll-commonmark-ghpages
+  - jekyll-gist
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
 
 paginate: 5
 paginate_path: "/blog/page/:num"
