@@ -1,165 +1,40 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-04-08T04:49:43-07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">about</title><link href="http://localhost:4000/post/about" rel="alternate" type="text/html" title="about" /><published>2023-04-01T00:00:00-07:00</published><updated>2023-04-01T00:00:00-07:00</updated><id>http://localhost:4000/post/about</id><content type="html" xml:base="http://localhost:4000/post/about"><![CDATA[<p><img src="./../assets/img/avatar.jpeg" alt="Headshot" class="center" width="50%" /></p>
-      <p>I was born in Baja California, Mexico to two parents descended from Mexican farmers. Since emigrating to the United States, I've lived in sunny Southern California ever since.</p>
-      <p>Ever since high school, I've had a passion for music and the arts—being involved with the Torrance High School Marching Band, Jazz Band, Wind Ensemble and Fine Arts Club. In university, I was involved with the UCSB Literature Club, Poet's Club, and Writer's Workshop– all while pursuing my interest in physics and French while taking engineering coursework on the side. In 2019, I graduated with a Bachelors of Science in Physics and a minor in French, winning a UCSB French Department award in 2016.</p>
-      <p>My diverse array of experiences ranging from facilitating Writer's Workshops that guide new authors into bringing their writing into the world, or my experiences tutoring children from six to sixteen in Math and Science—have all given me the ability to demystify complex ideas and easily communicate them. After university, I picked up the hobby of utilizing Python towards science communication and demystifying undergraduate and graduate level physics concepts via Twitter threads!</p>
-      <p>My interests are in using my analytical skills towards data analysis, or to apply those skills in a lab setting where they may be most useful. Eventually, I plan on continuing my physics education or on venturing into a new STEM-related field where I can conduct impactful work that helps people.</p>
-      ]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">About</title><link href="http://localhost:4000/post/about" rel="alternate" type="text/html" title="About" /><published>2023-04-01T00:00:00-07:00</published><updated>2023-04-01T00:00:00-07:00</updated><id>http://localhost:4000/post/about</id><content type="html" xml:base="http://localhost:4000/post/about"><![CDATA[<p><img src="./../assets/img/avatar.jpeg" alt="Headshot" class="center" width="50%" /></p>
-    <p>I was born in Baja California, Mexico to two parents descended from Mexican farmers. Since emigrating to the United States, I’ve lived in sunny Southern California ever since.</p>
-    <p>Ever since high school, I’ve had a passion for music and the arts—being involved with the Torrance High School Marching Band, Jazz Band, Wind Ensemble and Fine Arts Club. In university, I was involved with the UCSB Literature Club, Poet’s Club, and Writer’s Workshop– all while pursuing my interest in physics and French while taking engineering coursework on the side. In 2019, I graduated with a Bachelors of Science in Physics and a minor in French, winning a UCSB French Department award in 2016.</p>
-    <p>My diverse array of experiences ranging from facilitating Writer’s Workshops that guide new authors into bringing their writing into the world, or my experiences tutoring children from six to sixteen in Math and Science—have all given me the ability to demystify complex ideas and easily communicate them. After university, I picked up the hobby of utilizing Python towards science communication and demystifying undergraduate and graduate level physics concepts via Twitter threads!</p>
-    <p>My interests are in using my analytical skills towards data analysis, or to apply those skills in a lab setting where they may be most useful. Eventually, I plan on continuing my physics education or on venturing into a new STEM-related field where I can conduct impactful work that helps people.</p>
-    ]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Jekyll Garden Features</title><link href="http://localhost:4000/post/features" rel="alternate" type="text/html" title="Jekyll Garden Features" /><published>2020-03-01T00:00:00-08:00</published><updated>2020-03-01T00:00:00-08:00</updated><id>http://localhost:4000/post/features</id><content type="html" xml:base="http://localhost:4000/post/features"><![CDATA[<h6 id="wiki-links-are-auto-converted-to-hyperlinks">Wiki links are auto-converted to Hyperlinks</h6>
-  <p>The theme will automatically convert wiki links to inline links. Similarly, <code class="highlighter-rouge">[text](url)</code> will be converted to external links.</p>
-  <h6 id="markdown-support">Markdown support</h6>
-  <p>The theme supports all standard markdowns. Have a look at [[Markdown Rendered]] to see preview.</p>
-  <h6 id="external-links-are-indicated">External Links are indicated</h6>
-  <p>With link icon next to external links, it's easier to identify internal links and external links</p>
-  <h6 id="easy-front-matter">Easy Front-Matter</h6>
-  <p>Using frontmatter, it's easy to configure notes. The capability includes - feed order baed on date, option to hide notes from feed, list layout and more.</p>
-  <h6 id="introducing-list-layout-for-notes">Introducing List layout for Notes</h6>
-  <p>With simple front matter configuration, you can build a list layout (Check [[Credits]] for demo). This is helpful for building manual MoC :)</p>
-  <h6 id="static-homepage">Static Homepage</h6>
-  <p>Want to have a seperate home page instead of the feed? (Like <a href="https://hiran.in/">my personal website</a>) - You can configure that at <code class="highlighter-rouge">_config.yml</code> by change homepage enabled to true.</p>
-  <h6 id="support-subpath">Support Subpath</h6>
-  <p>You can install Jekyll garden to a URL path, or a sub path (example.com/digitalgarden). To do that, just configure baseurl at  <code class="highlighter-rouge">_config.yml</code></p>
-  <h6 id="private-files-using-gitignore">Private files using .gitignore</h6>
-  <p>Not a theme feature, but if you want to publish part of your obsidian, it's easy. Just create two folders inside <code class="highlighter-rouge">_notes</code> (Say Public and Private), and use Gitignore to stop syncing your pirvate files with Github!</p>
-  ]]></content><author><name></name></author><summary type="html"><![CDATA[Wiki links are auto-converted to Hyperlinks The theme will automatically convert wiki links to inline links. Similarly, [text](url) will be converted to external links.]]></summary></entry><entry><title type="html">Install and Setup</title><link href="http://localhost:4000/post/how-to" rel="alternate" type="text/html" title="Install and Setup" /><published>2020-03-01T00:00:00-08:00</published><updated>2020-03-01T00:00:00-08:00</updated><id>http://localhost:4000/post/how-to</id><content type="html" xml:base="http://localhost:4000/post/how-to"><![CDATA[<p>Jekyll garden is a theme over Jekyll that supports Obsidian formats, and few features. To install Jekyll to your server or local host, refer <a href="https://jekyllrb.com/docs/installation/">these documents</a>. <a href="https://github.com/Jekyll-Garden/jekyll-garden.github.io/blob/main/Dockerfile">Docker file</a> is also available.</p>
-  <p>Alternatively, you can use <a href="https://github.com/">Github</a> and <a href="https://pages.github.com/">Github Pages</a> as your server. It's very simple and almost low-code. Here is how to do it.</p>
-  <p><strong>Step 1</strong>: Sign-In to Github, visit the <a href="https://github.com/Jekyll-Garden/jekyll-garden.github.io">theme page</a> and click on 'Use this Template'</p>
-  <p><img src="../assets/img/1-how-to.png" width="100%" /></p>
-  <p><strong>Step 2</strong>: Name the forked repo as <code class="highlighter-rouge">yourusername.github.io</code>. My Github username is hfactor, hence it's hfactor.github.io</p>
-  <p><img src="../assets/img/2-how-to.png" width="100%" /></p>
-  <p><strong>Step 3</strong>: Go to your repo's settings &gt; pages and set the source to your main branch. 
-    <img src="../assets/img/3-how-to.png" width="100%" /></p>
-  <p><strong>Step 4 (Optional)</strong>: If you have a custom domain, set <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https">CNAME</a>.</p>
-  <h2 id="configuring-your-jekyll">Configuring Your Jekyll.</h2>
-  <p>Now you have Jekyll setup ready, go to <code class="highlighter-rouge">_config.yml</code> and set your configurations. Here you can do the following configurations :</p>
-  <ol>
-    <li>URL to set your hostname</li>
-    <li>BASEURL to set your sub path (url/subpath/)</li>
-    <li>Website Heading, Content, Copyright Year + Message</li>
-    <li>Private Link - On hover message</li>
-    <li>What all folders to exclude (Obsidian Template and all)</li>
-  </ol>
-  <p>Edit these value via Github, and commit directly to Github, which will refresh the whole setup, and a Jekyll enivorment will be ready. You can visit the page by visiting  <code class="highlighter-rouge">yourusername.github.io</code></p>
-  <h2 id="syncing-github-with-obsidian">Syncing Github with Obsidian</h2>
-  <p>Now you have your online publishing setup ready. It's time to build your local knowledge management using Obsidian. Here are the steps :</p>
-  <p>Step 1: Go to github and clone your repository to your machine. For this, you can use git-commands or install <a href="https://desktop.github.com/">Github for desktop.</a>
-    <img src="../assets/img/4-how-to.png" width="100%" /></p>
-  <p>Step 2: Once you have successfully cloned the repository to your machine, Open the Obsidian app in your machine, and set the folder <code class="highlighter-rouge">_notes</code> inside the repository as your vault. 
-    <img src="../assets/img/5-how-to.png" width="100%" /></p>
-  <p>This is important, because Jekyll Garden can only fetch and publish notes from <code class="highlighter-rouge">_notes</code> folder.</p>
-  <h2 id="frontmatter">Frontmatter</h2>
-  <p>For all notes to work properly, we need to have three frontmatter values.  Please make sure the front matter is written in between three lines. If you check any .md files in this repo, you will see something this.</p>
-  <div class="highlighter-rouge">
-    <div class="highlight">
-      <pre class="highlight"><code>---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Angel A. Valdenegro</title>
+        <description>Scientist, Communicator, and Tinkerer</description>
+        <link>/</link>
+        <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Sun, 09 Apr 2023 18:39:56 -0700</pubDate>
+        <lastBuildDate>Sun, 09 Apr 2023 18:39:56 -0700</lastBuildDate>
+        <generator>Jekyll v4.3.2</generator>
+        
+            <item>
+                <title>Twitter Science Communication</title>
+                <description>&lt;p&gt;Here’s the &lt;a href=&quot;https://github.com/isoleph/twitter&quot;&gt;github repository&lt;/a&gt; containing the python code I used to create Science Communication animations on my twitter &lt;a href=&quot;https://www.twitter.com/astroparticular&quot;&gt;@astroparticular&lt;/a&gt; Most of this is done using 3Blue1Brown’s math animation engine, &lt;a href=&quot;https://github.com/3b1b/manim&quot;&gt;manim&lt;/a&gt;. One of the biggest compliments I’ve received is university professors using my animations to present derivations in their lectures.&lt;/p&gt;
 
-title: Credits
-feed: hide
-date: 11-05-2022
-permalink: /credits
-format: list
+&lt;div class=&quot;gallery-box&quot;&gt;
+  &lt;div class=&quot;gallery&quot;&gt;
+    &lt;a href=&quot;https://twitter.com/astroparticular/status/1203031023417643008&quot;&gt;&lt;img src=&quot;../images/twitter-dirac-delta.png&quot; loading=&quot;lazy&quot; alt=&quot;Dirac Delta Thread&quot; /&gt;&lt;/a&gt;
+    &lt;a href=&quot;https://twitter.com/astroparticular/status/1200668439091634176&quot;&gt;&lt;img src=&quot;../images/twitter-kgeqn.png&quot; loading=&quot;lazy&quot; alt=&quot;Klein-Gordon Equation Thread&quot; /&gt;&lt;/a&gt;
+    &lt;a href=&quot;https://twitter.com/astroparticular/status/1198070673819619328&quot;&gt;&lt;img src=&quot;../images/twitter-hamiltonian.png&quot; loading=&quot;lazy&quot; alt=&quot;Hamiltonian Thread&quot; /&gt;&lt;/a&gt;
+    &lt;a href=&quot;https://twitter.com/astroparticular/status/1195470423154053120&quot;&gt; &lt;img src=&quot;../images/twitter-tensors.png&quot; loading=&quot;lazy&quot; alt=&quot;Tensors Thread&quot; /&gt;&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 
----
-</code></pre>
-    </div>
-  </div>
-  <ol>
-    <li><code class="highlighter-rouge">Title</code> is the page title. It <strong>should be same as that of your Obsidian file</strong> title for our Wiki links to work. i.e, if file is <code class="highlighter-rouge">credits.md</code> title has to be <code class="highlighter-rouge">credits</code></li>
-    <li>If you want to show the note on the feed, you should set <code class="highlighter-rouge">Feed</code> as <code class="highlighter-rouge">show</code>. It's an optional value, and the default value is set to hide. (To avoid publishing by mistake)</li>
-    <li><code class="highlighter-rouge">date</code> is used to sort note in feed.</li>
-    <li><code class="highlighter-rouge">permalink</code> is an optional value. Use it to set permanent URLs</li>
-    <li><code class="highlighter-rouge">format:list</code> will change the layout to a list with border, Refer [[Credits]]. This is useful for Curated lists (Check <a href="https://hiran.in/list/reading">my personal library</a> ) or while building MoC.</li>
-  </ol>
-  <h2 id="updating-digital-garden">Updating Digital Garden</h2>
-  <p>Once you have enough notes, got to the Github Desktop app, commit the changes to main, and push the changes to Github. Github will update the pages!
-    <img src="../assets/img/7-how-to.png" width="100%" /></p>
-  <p>If you want to know my workflow or Obsidian folder structure, check <a href="">here</a></p>
-  <h2 id="features">Features</h2>
-  <ul>
-    <li>Check <a href="../post/features">Features</a> to know theme features</li>
-  </ul>
-  <h2 id="credits">Credits</h2>
-  <ul>
-    <li>Check [[Credits]]</li>
-  </ul>
-  ]]></content><author><name></name></author><summary type="html"><![CDATA[Jekyll garden is a theme over Jekyll that supports Obsidian formats, and few features. To install Jekyll to your server or local host, refer these documents. Docker file is also available.]]></summary></entry><entry><title type="html">Features</title><link href="http://localhost:4000/post/features" rel="alternate" type="text/html" title="Features" /><published>2020-03-01T00:00:00-08:00</published><updated>2020-03-01T00:00:00-08:00</updated><id>http://localhost:4000/post/features</id><content type="html" xml:base="http://localhost:4000/post/features"><![CDATA[<h6 id="wiki-links-are-auto-converted-to-hyperlinks">Wiki links are auto-converted to Hyperlinks</h6>
-  <p>The theme will automatically convert wiki links to inline links. Similarly, <code class="highlighter-rouge">[text](url)</code> will be converted to external links.</p>
-  <h6 id="markdown-support">Markdown support</h6>
-  <p>The theme supports all standard markdowns. Have a look at [[Markdown Rendered]] to see preview.</p>
-  <h6 id="external-links-are-indicated">External Links are indicated</h6>
-  <p>With link icon next to external links, it’s easier to identify internal links and external links</p>
-  <h6 id="easy-front-matter">Easy Front-Matter</h6>
-  <p>Using frontmatter, it’s easy to configure notes. The capability includes - feed order baed on date, option to hide notes from feed, list layout and more.</p>
-  <h6 id="introducing-list-layout-for-notes">Introducing List layout for Notes</h6>
-  <p>With simple front matter configuration, you can build a list layout (Check [[Credits]] for demo). This is helpful for building manual MoC :)</p>
-  <h6 id="static-homepage">Static Homepage</h6>
-  <p>Want to have a seperate home page instead of the feed? (Like <a href="https://hiran.in/">my personal website</a>) - You can configure that at <code class="highlighter-rouge">_config.yml</code> by change homepage enabled to true.</p>
-  <h6 id="support-subpath">Support Subpath</h6>
-  <p>You can install Jekyll garden to a URL path, or a sub path (example.com/digitalgarden). To do that, just configure baseurl at  <code class="highlighter-rouge">_config.yml</code></p>
-  <h6 id="private-files-using-gitignore">Private files using .gitignore</h6>
-  <p>Not a theme feature, but if you want to publish part of your obsidian, it’s easy. Just create two folders inside <code class="highlighter-rouge">_notes</code> (Say Public and Private), and use Gitignore to stop syncing your pirvate files with Github!</p>
-  ]]></content><author><name></name></author><summary type="html"><![CDATA[Wiki links are auto-converted to Hyperlinks The theme will automatically convert wiki links to inline links. Similarly, [text](url) will be converted to external links.]]></summary></entry><entry><title type="html">How To</title><link href="http://localhost:4000/post/how-to" rel="alternate" type="text/html" title="How To" /><published>2020-03-01T00:00:00-08:00</published><updated>2020-03-01T00:00:00-08:00</updated><id>http://localhost:4000/post/how-to</id><content type="html" xml:base="http://localhost:4000/post/how-to"><![CDATA[<p>Jekyll garden is a theme over Jekyll that supports Obsidian formats, and few features. To install Jekyll to your server or local host, refer <a href="https://jekyllrb.com/docs/installation/">these documents</a>. <a href="https://github.com/Jekyll-Garden/jekyll-garden.github.io/blob/main/Dockerfile">Docker file</a> is also available.</p>
-  <p>Alternatively, you can use <a href="https://github.com/">Github</a> and <a href="https://pages.github.com/">Github Pages</a> as your server. It’s very simple and almost low-code. Here is how to do it.</p>
-  <p><strong>Step 1</strong>: Sign-In to Github, visit the <a href="https://github.com/Jekyll-Garden/jekyll-garden.github.io">theme page</a> and click on ‘Use this Template’</p>
-  <p><img src="../assets/img/1-how-to.png" width="100%" /></p>
-  <p><strong>Step 2</strong>: Name the forked repo as <code class="highlighter-rouge">yourusername.github.io</code>. My Github username is hfactor, hence it’s hfactor.github.io</p>
-  <p><img src="../assets/img/2-how-to.png" width="100%" /></p>
-  <p><strong>Step 3</strong>: Go to your repo’s settings &gt; pages and set the source to your main branch. 
-    <img src="../assets/img/3-how-to.png" width="100%" /></p>
-  <p><strong>Step 4 (Optional)</strong>: If you have a custom domain, set <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https">CNAME</a>.</p>
-  <h2 id="configuring-your-jekyll">Configuring Your Jekyll.</h2>
-  <p>Now you have Jekyll setup ready, go to <code class="highlighter-rouge">_config.yml</code> and set your configurations. Here you can do the following configurations :</p>
-  <ol>
-    <li>URL to set your hostname</li>
-    <li>BASEURL to set your sub path (url/subpath/)</li>
-    <li>Website Heading, Content, Copyright Year + Message</li>
-    <li>Private Link - On hover message</li>
-    <li>What all folders to exclude (Obsidian Template and all)</li>
-  </ol>
-  <p>Edit these value via Github, and commit directly to Github, which will refresh the whole setup, and a Jekyll enivorment will be ready. You can visit the page by visiting  <code class="highlighter-rouge">yourusername.github.io</code></p>
-  <h2 id="syncing-github-with-obsidian">Syncing Github with Obsidian</h2>
-  <p>Now you have your online publishing setup ready. It’s time to build your local knowledge management using Obsidian. Here are the steps :</p>
-  <p>Step 1: Go to github and clone your repository to your machine. For this, you can use git-commands or install <a href="https://desktop.github.com/">Github for desktop.</a>
-    <img src="../assets/img/4-how-to.png" width="100%" /></p>
-  <p>Step 2: Once you have successfully cloned the repository to your machine, Open the Obsidian app in your machine, and set the folder <code class="highlighter-rouge">_notes</code> inside the repository as your vault. 
-    <img src="../assets/img/5-how-to.png" width="100%" /></p>
-  <p>This is important, because Jekyll Garden can only fetch and publish notes from <code class="highlighter-rouge">_notes</code> folder.</p>
-  <h2 id="frontmatter">Frontmatter</h2>
-  <p>For all notes to work properly, we need to have three frontmatter values.  Please make sure the front matter is written in between three lines. If you check any .md files in this repo, you will see something this.</p>
-  <div class="highlighter-rouge">
-    <div class="highlight">
-      <pre class="highlight"><code>---
-
-title: Credits
-feed: hide
-date: 11-05-2022
-permalink: /credits
-format: list
-
----
-</code></pre>
-    </div>
-  </div>
-  <ol>
-    <li><code class="highlighter-rouge">Title</code> is the page title. It <strong>should be same as that of your Obsidian file</strong> title for our Wiki links to work. i.e, if file is <code class="highlighter-rouge">credits.md</code> title has to be <code class="highlighter-rouge">credits</code></li>
-    <li>If you want to show the note on the feed, you should set <code class="highlighter-rouge">Feed</code> as <code class="highlighter-rouge">show</code>. It’s an optional value, and the default value is set to hide. (To avoid publishing by mistake)</li>
-    <li><code class="highlighter-rouge">date</code> is used to sort note in feed.</li>
-    <li><code class="highlighter-rouge">permalink</code> is an optional value. Use it to set permanent URLs</li>
-    <li><code class="highlighter-rouge">format:list</code> will change the layout to a list with border, Refer [[Credits]]. This is useful for Curated lists (Check <a href="https://hiran.in/list/reading">my personal library</a> ) or while building MoC.</li>
-  </ol>
-  <h2 id="updating-digital-garden">Updating Digital Garden</h2>
-  <p>Once you have enough notes, got to the Github Desktop app, commit the changes to main, and push the changes to Github. Github will update the pages!
-    <img src="../assets/img/7-how-to.png" width="100%" /></p>
-  <p>If you want to know my workflow or Obsidian folder structure, check <a href="">here</a></p>
-  <h2 id="features">Features</h2>
-  <ul>
-    <li>Check <a href="../post/features">Features</a> to know theme features</li>
-  </ul>
-  <h2 id="credits">Credits</h2>
-  <ul>
-    <li>Check [[Credits]]</li>
-  </ul>
-  ]]></content><author><name></name></author><summary type="html"><![CDATA[Jekyll garden is a theme over Jekyll that supports Obsidian formats, and few features. To install Jekyll to your server or local host, refer these documents. Docker file is also available.]]></summary></entry></feed>
+</description>
+                <pubDate>Tue, 10 Dec 2019 00:01:35 -0800</pubDate>
+                <link>/blog/twitter</link>
+                <guid isPermaLink="true">/blog/twitter</guid>
+                
+                <category>scicomm</category>
+                
+                <category>blog</category>
+                
+                <category>social</category>
+                
+                
+            </item>
+        
+    </channel>
+</rss>

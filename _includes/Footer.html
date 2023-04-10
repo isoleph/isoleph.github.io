@@ -1,36 +1,39 @@
-{%- comment -%}
-*
-* MIT License
-* Copyright (c) 2020 Raghuveer S
-*
-* Permission is hereby granted, free of charge, to any person obtaining a copy
-* of this software and associated documentation files (the "Software"), to deal
-* in the Software without restriction, including without limitation the rights
-* to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-* copies of the Software, and to permit persons to whom the Software is
-* furnished to do so, subject to the following conditions:
-*
-* The above copyright notice and this permission notice shall be included in all
-* copies or substantial portions of the Software.
-*
-* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-* OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-* SOFTWARE.
-*
-* File: Footer.html
-* Author@Raghuveer S
-*
-* This file contains the markup for the copyright notice.
-*
-{%- endcomment -%}
+<!-- begin footer -->
+<footer class="footer">
 
-{%- if site.copyright.msg != nil and site.copyright.msg != empty and site.copyright.msg != null -%}
-<div id="copyright">
-    <p id="copyright-notice"> {{site.copyright.year}} • {{site.copyright.msg}} •
-        Credits</a> </p>
-</div> 
-{%- endif -%}
+  <div class="footer__inner">
+
+    <div class="container">
+      <div class="footer__author">
+        <div class="footer__author-info">
+          <h3 class="footer__author-name">{{site.data.settings.author.author__name}}</h3>
+          {% if site.data.settings.social %}
+          <div class="social">
+            <ul class="social__list list-reset">
+              {% for social in site.data.settings.social %}
+              <li class="social__item">
+                <a class="social__link" href="{{social.link}}" target="_blank" rel="noopener"
+                  aria-label="Social link"><i class="ion {{social.icon}}"></i></a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endif %}
+          <p class="footer__author-bio">{{site.data.settings.author.author__bio}}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bg lazy" data-bg="{{site.data.settings.footer__background__image}}"></div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+	  <div class="copyright">{{site.time | date: '%Y'}} &copy; <a href="/">{{site.data.settings.title}}</a>. Powered by <a href="https://jekyllrb.com/">Jekyll</a> and <a href="https://jekyllthemes.io/theme/akio-portfolio-jekyll-theme">Akio</a>.</div>
+      </div>
+    </div>
+  </div>
+
+</footer>
+<!-- end footer -->

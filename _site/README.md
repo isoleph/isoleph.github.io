@@ -1,38 +1,68 @@
-# Jekyll Garden v 0.4!
-![Slide 4_3 - 1 (1)](https://user-images.githubusercontent.com/1788677/169704768-65c32d93-7884-47fa-b98c-bc8329acc6a7.png)
+# Akio – Creative Portfolio Theme for Jekyll
 
+Akio is a creative personal portfolio Jekyll theme. This theme has a modern design and high-speed performance. The highlights of this theme include support Github Pages, light and dark mode, and also sections such as work, blog, clients, and testimonials. Perfectly suitable for any developer, designer, freelancer, software engineer, or some other who needs a professional way to showcase their work.
 
-Jekyll Garden theme lets you publish your [Obsidian](https://obsidian.md/) vault (or a subset of it) as a Jekyll static website. The theme is markdown and Obsidian setup friendly. You can use your own server or Github page to set up your SSG. Check out the demo.
+* * *
 
-<a href="https://www.buymeacoffee.com/hiran" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height= "48" width="173"></a>
+### Demo
 
-## Documents and links
--  [Demo website](https://jekyll-garden.github.io/)
--  [Personal Website](https://hiran.in/)
--  [Feature List](https://jekyll-garden.github.io/post/features)
--  [How to Setup](https://jekyll-garden.github.io/post/how-to)
+Check the theme in action [Live Demo](https://akio-jekyll.netlify.app/) |
+[Artem Sheludko](https://jekyllthemes.io/developers/artem-sheludko)
 
-## Credits & Thanks
--  See [Credits page](https://jekyll-garden.github.io/credits)
+* * *
 
-## Contribution
+### Theme features
 
-To set up your environment to develop this theme, run `bundle install` after cloning this repository in your local machine.
+- Works with GitHub Pages (host it for free)
+- Dark and light mode user can select themself
+- No jQuery, only vanilla JS
+- 100% responsive Design
+- Clean Code
+- Optimized for mobile devices
+- Section Blog
+- Section Works
+- Section Testimonials
+- Super fast performance ⚡⚡⚡
+- Social sharing buttons
+- Scroll to top button
+- Syntax highlighting (supports the Jekyll syntax highlighter)
+- Compatible with modern browsers
+- Medium style image zoom
+- Image Lazy loading
+- Image gallery
+- Custom logo support
+- Supports contact form (Formspree)
+- Supports MailChimp newsletter
+- Supports Disqus comments
+- Supports Google Analytics
+- Ionicons icons
+- Free Google Fonts
+- Free Updates & Support
 
-Your theme is set up just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. `_notes` contain all atomic notes. If you want to use this for blog, add posts inside `_posts` folder, following standard Jekyll frontamtter.
+* * *
 
-### Hosting in a Docker Container
-For hosting on your local network, inside a docker container, install `docker` and `docker-compose` and run,
-```Terminal
-$ docker-compose up -d
-```
-> **Note**:-
-> 
-> This container is built upon on alpine based ruby image. There's an official Jekyll image available in docker hub which only support `amd64` images. You can opt to use that if you are running the container on an 64bit PC. If you want to run this on an ARM based system like Raspberry Pi, this would be a better option.
->
-> The directories which will be frequently modified, are mapped as local volumes so that any changes made to those will be immediately picked up by the server and built. If you fancy changing content in other folders regularly, feel free to add them to the `volumes` section in `docker-compose.yml` before deploying.
+### Installation
 
+#### Installing Ruby & Jekyll
 
-## License
+If this is your first time using Jekyll, please follow the [Jekyll docs](https://jekyllrb.com/docs/installation/) and make sure your local environment (including Ruby) is setup correctly.
 
-The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+* * *
+
+### Deployment
+
+To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `jekyll serve` or `bundle exec jekyll serve` to start the Jekyll server.
+
+I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll website.
+
+* * *
+
+### Documentation
+
+Before using the Akio theme, please read the attached documentation.
+
+* * *
+
+### Support
+
+<p>If you have any questions, please feel free to contact me by mail <a href="mailto:hi.artemsheludko@gmail.com">Contact</a><p>

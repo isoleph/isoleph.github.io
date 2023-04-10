@@ -1,6 +1,25 @@
+# Created by https://www.toptal.com/developers/gitignore/api/macos,visualstudiocode,vim,git
+# Edit at https://www.toptal.com/developers/gitignore?templates=macos,visualstudiocode,vim,git
 
-# Created by https://www.toptal.com/developers/gitignore/api/vim,macOS,vscode
-# Edit at https://www.toptal.com/developers/gitignore?templates=vim,macOS,vscode
+# Jekyll Items
+_site
+.jekyll-cache
+pages/tags.html
+
+### Git ###
+# Created by git for backups. To disable backups in Git:
+# $ git config --global mergetool.keepBackup false
+*.orig
+
+# Created by git when using merge tools for conflicts
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+*_BACKUP_*.txt
+*_BASE_*.txt
+*_LOCAL_*.txt
+*_REMOTE_*.txt
 
 ### macOS ###
 # General
@@ -30,6 +49,10 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+### macOS Patch ###
+# iCloud generated files
+*.icloud
+
 ### Vim ###
 # Swap
 [._]*.s[a-v][a-z]
@@ -51,13 +74,23 @@ tags
 # Persistent undo
 [._]*.un~
 
-#!! ERROR: vscode is undefined. Use list command to see defined gitignore types !!#
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
 
-# End of https://www.toptal.com/developers/gitignore/api/vim,macOS,vscode
+# Local History for Visual Studio Code
+.history/
 
-_site
-.jekyll-cache
-pages/.DS_Store
-pages/tags.md
-_notes/.obsidian
-_notes/Public/.obsidian
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# End of https://www.toptal.com/developers/gitignore/api/macos,visualstudiocode,vim,git
