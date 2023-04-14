@@ -259,7 +259,7 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-remote-theme
   jekyll-sitemap
-  webrick (~> 1.8)
+  webrick
 
 BUNDLED WITH
    2.4.12
