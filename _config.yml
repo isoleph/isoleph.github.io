@@ -8,12 +8,13 @@ url: "https?://isoleph.github.io" # the base hostname & protocol for your site, 
 markdown: kramdown
 permalink: /:title
 plugins:
+  - github-pages
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-remote-theme
-  - github-pages
   - jekyll-github-metadata
 
+remote_theme: xindong/jekyll-theme-primer
 paginate: 5
 paginate_path: "/blog/page/:num"
 
