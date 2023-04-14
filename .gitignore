@@ -2,14 +2,17 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,visualstudiocode,vim,git
 
 # Jekyll Items
-_site
-.jekyll-cache/*
+_site/
+.jekyll-cache/
 pages/tags.html
+.vendor/
+.bundle/
 
 ### Git ###
 # Created by git for backups. To disable backups in Git:
 # $ git config --global mergetool.keepBackup false
 *.orig
+.gitignore
 
 # Created by git when using merge tools for conflicts
 *.BACKUP.*

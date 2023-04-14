@@ -3,18 +3,15 @@
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https?://isoleph.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
+
 #-------------------------------
 # Build Settings
 markdown: kramdown
 permalink: /:title
 plugins:
-  - github-pages
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-remote-theme
-  - jekyll-github-metadata
 
-remote_theme: xindong/jekyll-theme-primer
 paginate: 5
 paginate_path: "/blog/page/:num"
 

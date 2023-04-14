@@ -46,7 +46,7 @@
   }
 
   @supports not (aspect-ratio: 1/1) {
-    padding-bottom: 29%;
+    padding-bottom: 100%;
   }
 
   @media (max-width: $tablet) {

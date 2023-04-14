@@ -1,15 +1,13 @@
-# Angel's Website – Creative Portfolio Theme for Jekyll via Akio
+# My personal website
 
-Akio is a creative personal portfolio Jekyll theme. This theme has a modern design and high-speed performance. The highlights of this theme include support Github Pages, light and dark mode, and also sections such as work, blog, clients, and testimonials. Perfectly suitable for any developer, designer, freelancer, software engineer, or some other who needs a professional way to showcase their work.
+Built with Jekyll using [the Akio template](https://jekyllthemes.io/theme/akio-portfolio-jekyll-theme). Hosted by GitHub via GitHub Pages.
 
-* * *
+## Setup
 
-### Documentation
+### Installing Ruby & Jekyll
 
-Before using the Akio theme, please read the attached documentation.
+If this is your first time using Jekyll, please follow the [Jekyll docs](https://jekyllrb.com/docs/installation/) and make sure your local environment (including Ruby) is setup correctly.
 
-* * *
+### Running locally
 
-### Support
-
-<p>If you have any questions, please feel free to contact me by mail <a href="mailto:hi.artemsheludko@gmail.com">Contact</a><p>
+To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `jekyll serve` or `bundle exec jekyll serve` to start the Jekyll server. You can then see the website at `localhost:4000`.
