@@ -12,6 +12,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-remote-theme
   - github-pages
+  - jekyll-github-metadata
 
 paginate: 5
 paginate_path: "/blog/page/:num"
