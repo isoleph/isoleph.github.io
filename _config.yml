@@ -1,8 +1,7 @@
 #-------------------------------
 # General Site Settings
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-
+url: "https?://isoleph.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 #-------------------------------
 # Build Settings
@@ -11,16 +10,8 @@ permalink: /:title
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-github-metadata
-  - jekyll-seo-tag
-  - jekyll-coffeescript
-  - jekyll-commonmark-ghpages
-  - jekyll-gist
-  - jekyll-relative-links
-  - jekyll-optional-front-matter
-  - jekyll-readme-index
-  - jekyll-default-layout
-  - jekyll-titles-from-headings
+  - jekyll-remote-theme
+  - github-pages
 
 paginate: 5
 paginate_path: "/blog/page/:num"
@@ -64,5 +55,3 @@ defaults:
 sass:
   sass_dir: _sass
   style: compressed
-
-github: [metadata]
