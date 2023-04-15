@@ -1,7 +1,7 @@
 #-------------------------------
 # General Site Settings
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https?://isoleph.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://isoleph.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 #-------------------------------
 # Build Settings
@@ -11,6 +11,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-remote-theme
+  - jekyll-seo-tag
   - github-pages
 
 paginate: 5
