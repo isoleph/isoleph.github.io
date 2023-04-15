@@ -1,8 +1,7 @@
-# Created by https://www.toptal.com/developers/gitignore/api/macos,visualstudiocode,vim,git
+ Created by https://www.toptal.com/developers/gitignore/api/macos,visualstudiocode,vim,git
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,visualstudiocode,vim,git
 
 # Jekyll Items
-_site/
 .jekyll-cache/
 pages/tags.html
 .vendor/
