@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 gem "bundler"
-gem "jekyll"
+gem "jekyll", "3.9.3"
 gem "jekyll-paginate"
 gem "jekyll-sitemap"
 gem "jekyll-remote-theme"
