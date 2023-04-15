@@ -263,7 +263,6 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-remote-theme
   jekyll-sitemap
-  jekyll-theme-primer
   webrick
 
 BUNDLED WITH

@@ -2,7 +2,6 @@
 # General Site Settings
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https?://isoleph.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-theme: jekyll-theme-primer
 
 #-------------------------------
 # Build Settings
