@@ -4,7 +4,7 @@ description: This is a project from my senior year at UC Santa Barbara
 category: Mathematical Computation 
 date: 2019-08-22 08:01:35 +0700
 role: University Project 
-image: '../images/gravity-GUI.png/'
+image: '../images/gravity-GUI.png'
 image_caption: ''
 ---
 

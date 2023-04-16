@@ -26,8 +26,8 @@ menu__settings:
 #-------------------------------
 # Author Settings
 author:
-  author__name: Angel A. Valdenegro
-  author__bio: I'm a lifelong learner with a passion for experimenting with and deploying new technologies. Originally trained with a physics background and then engaged in the aerospace, environmental, and data analytics industries.
+  author__name: "Angel A. Valdenegro"
+  author__bio: "I'm a lifelong learner with a passion for experimenting with and deploying new technologies. Originally trained with a physics background and then engaged in the aerospace, environmental, and data analytics industries."
   author__avatar: '../images/avatar.jpeg'
 
 social:
@@ -76,7 +76,6 @@ blog__settings:
 #-------------------------------
 # Footer Settings
 footer__background__image: "../images/bg.png"
-footer__background__image__night: "../images/bg.png"
 
 #-------------------------------
 # Contact Settings
