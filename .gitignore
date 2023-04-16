@@ -4,6 +4,7 @@
 # Jekyll Items
 .jekyll-cache/
 pages/tags.html
+vendor/
 .vendor/
 .bundle/
 
